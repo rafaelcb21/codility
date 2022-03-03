@@ -7,7 +7,7 @@ Na programação, interações significam repetir alguma parte do seu programa. 
 
 Se você quer repetir uma determinada operação de um número durante o tempo, ou repeti-lo para cada elemento de uma coleção, um ‘for’ ciclo é a ferramenta correta. Sua sintaxe é a seguinte:
 
-#### ==1.1: ‘*For*’ sintaxe do ciclo==
+#### <mark>1.1: ‘*For*’ sintaxe do ciclo</mark>
  ```python
  1  for alguma_varival in faixa_de_valores:
  2      corpo_do_ciclo
@@ -80,7 +80,7 @@ Desta vez nós usaremos 3 ciclos: 1 externo e 2 internos ciclos. O ciclo externo
 
 O número de passos em um ciclo de for, e os valores sobre os quais nós fazemos os ciclos, são fixados antes do início do ciclo. E se o número de passos não é conhecido antecipadamente, ou os valores sobre os quais fazemos o ciclo são gerados um por um, e portanto não são conhecidos de antemão? Em tal caso, nós temos que usar um diferente tipo de ciclo, chamado de ciclo ‘while’. A sintaxe para o while ciclo é como se segue:
 
-#### ==1.2: ‘While’ sintaxe do ciclo==
+#### <mark>1.2: ‘While’ sintaxe do ciclo</mark>
 ```python
 1  while alguma_condição:
 2      corpo_do_ciclo

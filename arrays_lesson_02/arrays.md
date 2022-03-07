@@ -6,21 +6,21 @@ Array é uma estrutura de dados que pode ser usada para armazenar muitos tipos e
 
 Nós queremos criar uma lista de shopping contendo 3 produtos. Tal lista pode ser criada como se segue:
 
-'''python
+```python
 shopping = ['bread', 'butter', 'cheese']
-'''
+```
 
 (sendo que: *shopping* é o nome do array e cada produto dentro é separado por vírgula). Cada item no array é chamado de elemento. Arrays podem aramazenar qualquer quantidade de elementos (assumindo que há memória suficiente). Note que a lista pode também ser vazia.
 
-'''python
+```python
 shopping = []
-'''
+```
 
 Se o planejamento é gravar temperaturas do ar sobre os próximos 365 dias, nós podemos criar de antemão um lugar para armazenar os dados. O array pode ser criado da seguinte maneira.
 
-'''python
+```python
 temperatures = [0] * 365
-'''
+```
 (isto é, nós criamos um array contendo 365 zeros).
 
 ## 2.1. Acessando valores de um array
@@ -31,15 +31,15 @@ Array provê facil acesso a todos os elementos. Dentro do array, cada elemento �
 
 Nós podemos alterar os elementos do array como se fossem variáveis separadas, no qual cada elemento do array pode ser atribuído a um novo valor independentemente. Por exemplo, vamos dizer que nós queremos gravar que o 42º dia de medição, a temperatura do ar foi 25 graus. Isto pode ser feito com uma simples atribuição.
 
-'''python
+```python
 temperatures[42] = 25
-'''
+```
 
 Se existir um produto a mais para adicionar a nossa lista do shopping, pode ser adicionado como se segue:
 
-'''python
+```python
 shopping += ['eggs']
-'''
+```
 
 O índice para o elemento será o próximo inteiro depois do último (neste caso, 3)
 
@@ -47,9 +47,9 @@ O índice para o elemento será o próximo inteiro depois do último (neste caso
 
 Frequentemente nós precisamos interar sobre todos os elementos do array; talvez para contar o número de itens específicos, por exemplo. Sabendo disso que o array contem *N* elementos, nós podemos interar sobre os inteiros consecutivos do índice 0 para o índice *N* - 1 e checar cada índice. O tamanho de um array pode ser encontrado usando a função *len()*. Por exemplo, contando o número de itens na lista do shopping pode ser feita rapidamente como se segue:
 
-'''python
+```python
 N = len(shopping)
-'''
+```
 
 Vamos escrever uma função que conta o número de dias com temperatura negativa do ar.
 

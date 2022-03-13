@@ -1,4 +1,3 @@
-
 # Interações
 
 Na programação, interações significam repetir alguma parte do seu programa. Nesta lição está presente o básico da construção de programação que permite as interações de serem realizadas: ‘for’ e ‘while’ loops (ciclos).

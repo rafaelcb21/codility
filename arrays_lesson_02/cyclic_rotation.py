@@ -66,6 +66,3 @@ def solution(A, K):
         A = temp
 
     return A
-
-x = solution([3, 8, 9, 7, 6], 999)
-print(x)

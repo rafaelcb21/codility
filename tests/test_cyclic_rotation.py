@@ -1,5 +1,5 @@
 import unittest
-from arrays_lesson_02.cyclic_rotation import solution
+from lesson_02_arrays.cyclic_rotation import solution
 
 # Command to execute the test:
 # python -m unittest -v

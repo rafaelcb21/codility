@@ -1,5 +1,5 @@
 import unittest
-from arrays_lesson_02.odd_occurrences_in_array import solution, solution2
+from lesson_02_arrays.odd_occurrences_in_array import solution, solution2
 
 # Command to execute the test:
 # python -m unittest -v

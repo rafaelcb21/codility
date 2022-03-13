@@ -1,5 +1,5 @@
 import unittest
-from iterations_lesson_01.binary_gap import solution
+from lesson_01_iterations.binary_gap import solution
 
 # Command to execute the test:
 # python -m unittest -v

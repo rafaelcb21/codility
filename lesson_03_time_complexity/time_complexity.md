@@ -62,13 +62,7 @@ Vamos anotar que se o primeiro valor do array A é 0 então o programa será enc
 6       return result
  ```
 
-O resultado da função igual a
-
-```math
-    1/2 * (n * (n + 1)) = 1/2 * n^2 + 1/2 * n
-```
-
-(a explicação esta no exercício). Quando calculamos a complexidade nós estamos interessados no termo que cresce rápido, nós não podemos omitir as constantes, mas outros termos (```math 1/2*n ``` neste caso). Portanto nós pegamos a complexidade do tempo quadratico. Algumas vezes a complexidade depende de mais variáveis (veja o exemplo abaixo)
+O resultado da função igual a ![](https://latex.codecogs.com/gif.latex?%5Cinline%20%5Cfrac%7B1%7D%7B2%7D%20%5Ccdot%20%5Cleft%20%28%20n%20%5Ccdot%20%5Cleft%20%28%20n%20&plus;%201%20%5Cright%20%29%20%5Cright%20%29%20%3D%20%5Cfrac%7B1%7D%7B2%7D%20%5Ccdot%20n%5E%7B2%7D%20&plus;%20%5Cfrac%7B1%7D%7B2%7D%20%5Ccdot%20n) (a explicação esta no exercício). Quando calculamos a complexidade nós estamos interessados no termo que cresce rápido, nós não podemos omitir as constantes, mas outros termos (![](https://latex.codecogs.com/gif.latex?%5Cinline%20%5Cfrac%7B1%7D%7B2%7D%20%5Ccdot%20n) neste caso). Portanto nós pegamos a complexidade do tempo quadratico. Algumas vezes a complexidade depende de mais variáveis (veja o exemplo abaixo)
 
 #### <mark>3.6. Tempo linear - O(*n* + *m*)</mark>
 ```python
